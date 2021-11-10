@@ -93,6 +93,7 @@ class _HomePageState extends State<HomePage> {
                     SizedBox(height: kToolbarHeight * .4),
                     Text(
                       'This quick website is built in Flutter 💙',
+                      textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 18,
                       ),
@@ -100,6 +101,7 @@ class _HomePageState extends State<HomePage> {
                     SizedBox(height: 5),
                     Text(
                       "I help businesses scale to multiple figures with Mobile Apps.",
+                      textAlign: TextAlign.center,
                       style: TextStyle(
                         fontSize: 18,
                       ),
